@@ -2,7 +2,7 @@
 
 This is a collection of all lessons completed following the nRF Connect SDK Fundamentals Course hosted by Nordic Semiconductor. The complete course can be found here: https://academy.nordicsemi.com/courses/nrf-connect-sdk-fundamentals/
 
-The intent was to gain familiarity with the nRF52840 SoC, learn about Zephyr RTOS, and reinstill RTOS fundamentals (previous experience with FreeRTOS using ESP-IDF). These learnings will support future custom development with nRF SoCs using the nRF Connect SDK and nRF52840 device in embedded battery-powered BLE devices. Using hardware which was not specifically intended for the tutorial further benefitted my understanding as I had to port/adapt all example code for my specific hardware. This allowed me to dive deeper into devicetree structure/syntax and Kconfig. 
+The intent was to gain familiarity with the nRF52840 SoC, learn about Zephyr RTOS, and reinstill RTOS fundamentals (previous experience with FreeRTOS using ESP-IDF). These learnings will support future custom development with nRF SoCs using the nRF Connect SDK and nRF52840 device in embedded battery-powered BLE devices. Using hardware which was not specifically intended for the tutorial further benefitted my understanding as I had to port/adapt all example code for my specific hardware. This forced me to dive deeper into devicetree structure/syntax and Kconfig. Next up is the intermediate course as well as BLE fundamentals, after which I plan to focus on software + hardware development in parallel.
 
 The course was completed using ncs v3.3.0 using an nRF Pro Micro clone, such as the following: https://www.amazon.com/dp/B0CYLNZ6V4?ref=ppx_yo2ov_dt_b_fed_asin_title
 
