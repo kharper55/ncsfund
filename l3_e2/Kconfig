@@ -1,0 +1,8 @@
+source "Kconfig.zephyr"         
+
+# sources Kconfig.zephyr, which is necessary when defining a new Kconfig file to source Zephyr RTOS configurations. 
+# The next three lines define the configuration CONFIG_MYFUNCTION as a boolean variable and sets its default value to n.
+
+config MYFUNCTION
+	bool "Enable my function"
+	default n

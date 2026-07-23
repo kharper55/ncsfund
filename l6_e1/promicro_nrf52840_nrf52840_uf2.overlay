@@ -1,0 +1,12 @@
+/* For more help, browse the devicetree documentation at https://docs.zephyrproject.org/latest/build/dts/index.html
+ * You can also visit the nRF DeviceTree extension documentation at https://docs.nordicsemi.com/bundle/nrf-connect-vscode/page/guides/ncs_configure_app.html#devicetree-support-in-the-extension
+ */
+
+&i2c0 {
+    status = "okay";
+    bme280: bme280@76 {
+	compatible = "bosch,bme280";
+	status = "okay";
+	reg = <0x76>; // Slave addr register depends on board since LSB of BME280 is configurable. This assumes the LSB is 0 via driving A0 pin low.
+    };
+};
